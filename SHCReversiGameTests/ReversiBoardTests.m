@@ -40,9 +40,4 @@
                                   @"Making a move in the pre-game state should do nothing");
 }
 
-- (void)test_iLikeBreakingBuildsAndICannotLie
-{
-    XCTFail(@"The integration will fail");
-}
-
 @end
