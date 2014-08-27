@@ -42,7 +42,7 @@
 
 - (void)test_iLikeBreakingBuildsAndICannotLie
 {
-    XCTAssertTrue(false, @"The integration will fail");
+    XCTFail(@"The integration will fail");
 }
 
 @end
